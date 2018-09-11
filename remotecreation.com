@@ -1,6 +1,6 @@
 Remotecreation.com: CSS code used:
 
-h1.site-title{
+\h1.site-title{
 	font-family: Palatino Linotype;
 }
 
@@ -27,10 +27,12 @@ src="https://remotecreation.com/wp-content/uploads/2018/06/me-300x278.jpg"]
 	font-size: 5em;
 	font-family: sans-serif;
 }
-div#contact-section{
+#contact-section{
+	padding-bottom: 0px;
 	background-repeat: none;
 	background-size: cover;
 	background-image: url("https://remotecreation.com/wp-content/uploads/2018/08/contact.jpg")
+	
 }
 
 main#main.site-main{
@@ -42,10 +44,24 @@ main#main.site-main{
 	background-color: #16737f;
 	border-radius: 1em 1em 0 0;
 }
+
 a:hover {color:#FFFFFF;}
  
-div#site-header-menu ul li a:hover {
+#site-header-menu ul li a:hover {
 	font-weight:bold;
 text-shadow: 1px 1px 1px skyblue, 0 0 30px white, 0 0 25px white;
 }
 
+#numbers-section{
+	border-bottom:none;
+}
+#contact-section{
+	margin-top:-1px;
+	border-bottom: none;
+}
+
+@media only screen and (max-width:700px){
+	#numbers-section{
+	background-size: contain;
+	}
+}
