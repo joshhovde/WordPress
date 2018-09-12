@@ -27,8 +27,12 @@ src="https://remotecreation.com/wp-content/uploads/2018/06/me-300x278.jpg"]
 	font-size: 5em;
 	font-family: sans-serif;
 }
+#contact-section.section{
+	padding-bottom: 29em;
+}
+
+
 #contact-section{
-	padding-bottom: 0px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url("https://remotecreation.com/wp-content/uploads/2018/08/contact.jpg")
@@ -73,9 +77,23 @@ main#main.site-main{
 		background-position: 50%;
 	}
 	#contact-section.section{
-		background-position: 30%;
-		background-size: 60rem 60rem;
+		background-size: contain;
+		background-color: black;
+		padding-bottom: 0em;
+		background-position: 1% 131%;
+	}
+	.contact-item{
+		color:#1982c4; 
+	}
+ .contact-content-wrapper{
+		font-weight: bold;
+	}		
+}
+
+@media only screen and (max-width: 900px) {
+	#numbers-section{
+	background-position: 0%;
+	background-repeat: no-repeat;
 	}
 	
-		
 }
