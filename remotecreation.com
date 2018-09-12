@@ -76,24 +76,36 @@ text-shadow: 1px 1px 1px skyblue, 0 0 30px white, 0 0 25px white;
 main#main.site-main{
 		background-position: 50%;
 	}
-	#contact-section.section{
+#contact-section.section{
 		background-size: contain;
 		background-color: black;
 		padding-bottom: 0em;
 		background-position: 1% 131%;
 	}
-	.contact-item{
-		color:#1982c4; 
+.contact-item{
+		color:#ffffff; 
 	}
- .contact-content-wrapper{
+.contact-content-wrapper{
 		font-weight: bold;
-	}		
+	}	
 }
+
+
+@media only screen and (max-width: 415px){
+		#contact-section.section{
+		background-size: contain;
+		background-color: black;
+		padding-bottom: 0em;
+		background-position: 1% 162%;
+		}
+.contact-item{
+color:#1982c4;
+		}
 
 @media only screen and (max-width: 900px) {
 	#numbers-section{
 	background-position: 0%;
 	background-repeat: no-repeat;
 	}
-	
-}
+		}
+}	
