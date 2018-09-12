@@ -18,6 +18,10 @@ src="https://remotecreation.com/wp-content/uploads/2018/06/me-300x278.jpg"]
 	color: white;
 }
 
+.button-scroll{
+display:none;	
+}
+
 .site-content{
 	background-color: #000000;
 }
