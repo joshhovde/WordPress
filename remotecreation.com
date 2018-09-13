@@ -100,7 +100,7 @@ main#main.site-main{
 		background-size: contain;
 		background-color: black;
 		padding-bottom: 0em;
-		background-position: 1% 162%;
+		background-position: 1% 130%;
 		}
 .contact-item{
 color:#1982c4;
