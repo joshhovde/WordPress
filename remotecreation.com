@@ -8,9 +8,7 @@ p{
 	font-family: Sans-Serif;
 }
 
-img[
-src="https://remotecreation.com/wp-content/uploads/2018/06/me-300x278.jpg"]
-{
+.wp-image-90{
 	border-radius: 25rem;
 }
 
@@ -53,6 +51,12 @@ main#main.site-main{
 	border-radius: 1em 1em 0 0;
 }
 
+.wp-image-811,.wp-image-769,.wp-image-770
+{
+	border-radius: 1em 4em 5em 1em;
+	display:inline-flex;
+}
+
 a:hover {color:#FFFFFF;}
  
 #site-header-menu ul li a:hover {
@@ -68,12 +72,21 @@ text-shadow: 1px 1px 1px skyblue, 0 0 30px white, 0 0 25px white;
 	border-bottom: none;
 }
 
+#site-generator {
+  padding: 0em;
+}
 
-@media only screen and (min-width: 320px) and (max-width: 568px) {
+@media only screen and (max-width: 900px){
+	#contact-section.section{
+		background-position: 1% 110%;
+		}
 	#numbers-section{
 	background-position: 3%;
 	background-repeat: no-repeat;
 	}
+}	
+
+@media only screen and (max-width: 568px) {
 .custom-header:before{
 		background-position: 60%;
 	}
@@ -82,34 +95,29 @@ main#main.site-main{
 	}
 #contact-section.section{
 		background-size: contain;
-		background-color: black;
 		padding-bottom: 0em;
+	background-color: black;
 		background-position: 1% 131%;
 	}
-.contact-item{
-		color:#ffffff; 
-	}
+.wp-image-811,.wp-image-769,.wp-image-770
+{width:30%;
+}
 .contact-content-wrapper{
 		font-weight: bold;
 	}	
 }
 
-
 @media only screen and (max-width: 415px){
 		#contact-section.section{
 		background-size: contain;
 		background-color: black;
-		padding-bottom: 0em;
-		background-position: 1% 130%;
+		padding-bottom: 2em;
+		background-position: 1% 110%;
 		}
 .contact-item{
 color:#1982c4;
 		}
-
-@media only screen and (max-width: 900px) {
-	#numbers-section{
-	background-position: 0%;
-	background-repeat: no-repeat;
-	}
-		}
-}	
+.wp-image-811,.wp-image-769,.wp-image-770
+{width:50%;
+}
+}
