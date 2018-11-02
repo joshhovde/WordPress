@@ -2,21 +2,18 @@
 	display: none;
 }
 
-.fl-builder-content .fl-node-5bd9e1eeb363c :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5b290078cc72c :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle) {
+.fl-builder-content .fl-node-5bd9e1eeb363c :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5b290078cc72c :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5bd9e6909a5dd :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5bd9e6909a5dd :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5bd9e6909a5dd :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5bdcbb53b75ac :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5bdcc3a89623b :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle) {
 	border: hidden;
+	font-size: 22px;
 }
 
 .fl-page-nav-right.fl-page-header-fixed, .fl-page-header-fixed{
 	position: fixed;
 }
 
-.fl-accordion-large .fl-accordion-button-label{
-	font-size: 22px;
-}
 
-.wp-image-2262, .wp-image-2003{
+.wp-image-2510, .wp-image-2511, .wp-image-2494, .wp-image-2544{
 	width: 150px;
-	height: 150px;
 }
 
 .grow{
