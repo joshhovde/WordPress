@@ -1,123 +1,58 @@
-Remotecreation.com: CSS code used:
-
-h1.site-title{
-	font-family: Palatino Linotype;
-}
-
-p{
-	font-family: Sans-Serif;
-}
-
-.wp-image-90{
-	border-radius: 25rem;
-}
-
-.site-main, .section{
-	color: white;
-}
-
-.button-scroll{
-display:none;	
-}
-
-.site-content{
-	background-color: #000000;
-}
-
-.site-title{
-	padding-bottom: 5em;
-	font-size: 5em;
-	font-family: sans-serif;
-}
-#contact-section.section{
-	padding-bottom: 29em;
-}
-
-
-#contact-section{
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url("https://remotecreation.com/wp-content/uploads/2018/08/contact.jpg")
-	
-}
-
-main#main.site-main{
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url("https://remotecreation.com/wp-content/uploads/2018/08/smoke3-964x1024.jpg")
-}
-.post-70{
-	background-color: #16737f;
-	border-radius: 1em 1em 0 0;
-}
-
 .wp-image-811,.wp-image-769,.wp-image-770
 {
 	border-radius: 1em 4em 5em 1em;
 	display:inline-flex;
 }
 
-a:hover {color:#FFFFFF;}
- 
-#site-header-menu ul li a:hover {
-	font-weight:bold;
-text-shadow: 1px 1px 1px skyblue, 0 0 30px white, 0 0 25px white;
+.fl-page-nav-toggle-button.fl-page-nav-toggle-visible-medium-mobile .fl-page-nav .navbar-toggle {
+	background-color: black;
 }
 
-#numbers-section{
-	border-bottom:none;
-}
-#contact-section{
-	margin-top:-1px;
-	border-bottom: none;
+.fl-node-5be0a15ee3b28 .fl-row-content-wrap, .fl-node-5be0a1810ae58 .fl-row-content-wrap{
+	z-index: 10;
 }
 
-#site-generator {
-  padding: 0em;
+.wp-image-90{
+	border-radius: 11em;
 }
 
-@media only screen and (max-width: 900px){
-	#contact-section.section{
-		background-position: 1% 110%;
-		}
-	#numbers-section{
-	background-position: 3%;
-	background-repeat: no-repeat;
-	}
-}	
+.fl-page-header-wrap {
+	background-image: url("https://remotecreation.com/wp-content/uploads/2018/11/Mountains-new.jpg");
+	background-position: 30% 20%;
+	padding-bottom: 26em;
+}
+
+#site-header-menu-items, ul li a:hover{
+	
+text-shadow: 1px 1px 10px skyblue, 0 0 30px white, 0 0 25px white;
+}
+
+.fl-logo-text{
+	font-size: 100px;
+}
+
 
 @media only screen and (max-width: 568px) {
-.custom-header:before{
-		background-position: 60%;
+	.fl-node-5bdb4321afd1c{
+		display: none;
 	}
-main#main.site-main{
-		background-position: 50%;
+	.fl-node-5bdb405f2e5d4 > .fl-row-content-wrap{
+		padding-bottom: 0px;
 	}
-#contact-section.section{
-		background-size: contain;
-		padding-bottom: 0em;
-	background-color: black;
-		background-position: 1% 131%;
+	.fl-node-5bdb567d2eb9c{
+		margin-bottom: 245px;
 	}
-.wp-image-811,.wp-image-769,.wp-image-770
-{width:30%;
-}
-.contact-content-wrapper{
-		font-weight: bold;
-	}	
-}
-
-@media only screen and (max-width: 415px){
-		#contact-section.section{
-		background-size: contain;
-		background-color: black;
-		padding-bottom: 2em;
-		background-position: 1% 110%;
-		}
-.contact-item{
-color:#1982c4;
-		}
-.wp-image-811,.wp-image-769,.wp-image-770
-{width:50%;
-}
+	.fl-node-5bdb56111ef9a{
+	margin-top: -60px;		
+	}
+	.fl-logo-text{
+	font-size: 72px;
+		}	
+	
+	.fl-node-5be0c068a85d8 > .fl-row-content-wrap, .fl-node-5be0c0c129403 > .fl-row-content-wrap{
+	  background-size: 450%;
+		background-position: 1%;
+		background-attachment: fixed !important;
+	}
+    
 }
