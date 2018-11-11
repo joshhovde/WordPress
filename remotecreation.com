@@ -4,6 +4,15 @@
 	display:inline-flex;
 }
 
+.wp-image-90{
+	border-radius: 10em 10em 1em 1em;
+}
+
+.wp-image-811:hover, .wp-image-769:hover, .wp-image-770:hover {
+	box-shadow: 1px 4px white;
+	border: 1px outset grey;
+}
+
 .fl-page-nav-toggle-button.fl-page-nav-toggle-visible-medium-mobile .fl-page-nav .navbar-toggle {
 	background-color: black;
 }
@@ -12,8 +21,17 @@
 	z-index: 10;
 }
 
+.fl-logo-img{
+    padding:25px;
+background-color: rgba(255, 255, 255, .2);
+opacity:0.8;
+	border-radius: 10em
+}
+
 .wp-image-90{
-	border-radius: 11em;
+	border-style: inset;
+  border-width: 1px;
+	border-color: black;
 }
 
 .fl-page-header-wrap {
@@ -31,6 +49,15 @@ text-shadow: 1px 1px 10px skyblue, 0 0 30px white, 0 0 25px white;
 	font-size: 100px;
 }
 
+.fl-module.fl-module-accordion.fl-node-5be6347547a71 *, .fl-module.fl-module-accordion.fl-node-5be725eab5932 *{
+	border: none;
+}
+
+@media only screen and (max-width: 1131px){
+.fl-node-5be7308199704 > .fl-col-content{
+	background-position: 0%;
+}
+}
 
 @media only screen and (max-width: 568px) {
 	.fl-node-5bdb4321afd1c{
@@ -54,5 +81,4 @@ text-shadow: 1px 1px 10px skyblue, 0 0 30px white, 0 0 25px white;
 		background-position: 1%;
 		background-attachment: fixed !important;
 	}
-    
 }
