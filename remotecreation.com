@@ -17,8 +17,16 @@
 	background-color: black;
 }
 
+.fl-page-nav-toggle-button.fl-page-nav-toggle-visible-medium-mobile .fl-page-nav ul.sub-menu li a:before{
+	content: none;
+}
+
 .fl-node-5be0a15ee3b28 .fl-row-content-wrap, .fl-node-5be0a1810ae58 .fl-row-content-wrap{
 	z-index: 10;
+}
+
+.wp-image-1317{
+	border-radius: 1em;
 }
 
 .fl-logo-img{
@@ -33,6 +41,8 @@ opacity:0.8;
   border-width: 1px;
 	border-color: black;
 }
+
+
 
 .fl-page-header-wrap {
 	background-image: url("https://remotecreation.com/wp-content/uploads/2018/11/Mountains-new.jpg");
