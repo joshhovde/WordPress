@@ -40,8 +40,9 @@
 ===============================
 */
 
-.wp-image-2510, .wp-image-2511, .wp-image-2494, .wp-image-2544, .wp-image-2565, .wp-image-2634, .wp-image-2698, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-2935, .wp-image-2975, .wp-image-2957, .wp-image-2962, .wp-image-2969{
-	width: 150px;
+.wp-image-2544, .wp-image-3057,
+.wp-image-2510, .wp-image-3066, .wp-image-2494, .wp-image-3071, .wp-image-2634, .wp-image-3076, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-2935, .wp-image-2975, .wp-image-2957, .wp-image-2962, .wp-image-2969, .wp-image-3052{
+	width: 350px;
 }
 
 .grow{
@@ -68,7 +69,22 @@
 =============================
 */
 
+
 @media only screen and (max-width: 568px) {
+	
+/*
+*  All Word-press images
+=============================
+*/		
+	.fl-post img[class*="wp-image-"], .fl-post img.alignnone, .fl-post img.alignleft, .fl-post img.aligncenter, .fl-post img.alignright{
+	
+-webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+	transform: scale(1.2);
+		width: 94%;
+		margin-top: -25px;
+}
 	
 /*
 *  Pronto Logo
@@ -78,8 +94,9 @@
 .fl-post img[class*="wp-image-1556"], .fl-post img.alignnone, .fl-post img.alignleft, .fl-post img.aligncenter, .fl-post img.alignright{
 	position: fixed;
 	z-index: 5;
+	transform: none !important;
 }
 	.fl-menu.fl-menu-accordion-collapse.fl-menu-responsive-toggle-mobile{
 		margin-top: 15px;
-	}
+}
 }
