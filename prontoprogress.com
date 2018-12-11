@@ -23,11 +23,6 @@
 	font-size: 20px;
 }
 
-
-.wp-image-3787{
-	min-width: 100px;
-}
-
 /*
 *  Accordion divs for MRO-FSO Services page
 ===============================
@@ -39,32 +34,66 @@
 }
 
 /*
+*  Accordion divs for Open Positions page
+===============================
+*/
+.page-id-1689 .fl-accordion-item{
+	border:hidden;
+}	
+.page-id-1689	.fl-accordion-button-label{
+	width:16em;
+	font-size:20px
+}
+
+
+/*
+*  Accordion divs for Career Paths page
+===============================
+*/
+.page-id-4081 .fl-accordion-item
+{
+	border:hidden;
+}
+
+/*
+*  Accordion divs for Position Descriptions page
+===============================
+*/
+.page-id-4086 .fl-accordion-item{
+	border: hidden;	
+}
+
+
+/* 
 *  Accordion divs for Leadership Team page
 ===============================
 */
 .page-id-1641 .fl-accordion-item
 {
 	border:hidden;
-	font-size:20px;
 	line-height: 25px;
 }
 
 .page-id-1641 .fl-accordion-button-label{
-	width: 15em;
+	width: 26em;
 }
 
 
 /*
-*  Accordion divs on Epicore support page and QAD page.
+*  Accordion divs QAD and Epicor page
 ===============================
 */
-.fl-builder-content .fl-node-5beda5d5847ee :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle),
-.fl-builder-content .fl-node-5beda5c491d0e :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle),
-.fl-builder-content .fl-node-5bd9e1eeb363c :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5b290078cc72c :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5bd9e6909a5dd :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5bdcbb53b75ac :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5bdcc3a89623b :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5be5cb6ea6763 :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5beb42b4ca536 :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5bec796ecd312 :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5bec8514c4cb2 :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5beca308ee0c9 :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5beec764ae08e :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle), .fl-builder-content .fl-node-5beec52477fd3 :not(input):not(textarea):not(select):not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(.fl-menu-mobile-toggle)
+.page-id-1593 .fl-accordion-item,
+.page-id-1727 .fl-accordion-item
 {
-	border: hidden;
+	border:hidden;
+}
+
+.page-id-1593 .fl-accordion-button-label, .page-id-1727 .fl-accordion-button-label{
 	font-size: 20px;
 }
+
+
 
 /*
 *  Fixed header.
@@ -88,11 +117,21 @@
 
 
 /*
+*  Careers page employee photos
+===============================
+*/
+.wp-image-3439, .wp-image-3936,
+.wp-image-3920, .wp-image-4068,
+.wp-image-3939{
+	width: 250px;
+}
+
+/*
 *  Sizing for Leadership Team images
 ===============================
 */
 .wp-image-3647, .wp-image-3648, .wp-image-3649, .wp-image-3650, .wp-image-3651, .wp-image-3652, .wp-image-3653, .wp-image-3654{
-	width: 500px;
+	width: 250px;
 }
 
 
@@ -103,9 +142,7 @@
 
 .wp-image-2544, .wp-image-3413,
 .wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052,
-.wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3645, .wp-image-3644, .wp-image-3646
-
-{
+.wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3645, .wp-image-3644, .wp-image-3646, .wp-image-3908{
 	width: 350px;
 }
 
@@ -183,16 +220,6 @@ font-weight: bold;
 =============================
 */
 
-/*
-*  Richard Ratcliffe-name
-=============================
-*/
-@media only screen and (max-width: 1315px) {
-.fl-module.fl-module-rich-text.fl-node-5c06c6b967019{
-	margin-right: -4em;
-}
-}
-
 
 @media only screen and (max-width: 930px){
 	.wp-image-3727, .wp-image-3757{
@@ -242,11 +269,11 @@ margin-left: 4em;
 
 	
 /*
-*  All Word-press images
+*  All Word-press images for Accordions
 =============================
 */	
 .wp-image-2544, .wp-image-3413,
-.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843{
+.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908{
 	
 -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
