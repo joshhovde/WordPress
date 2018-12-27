@@ -23,6 +23,18 @@
 	font-size: 20px;
 }
 
+
+/*
+*  Accordion divs (GoForwardSM) page
+===============================
+*/
+.page-id-4240 .fl-accordion-item{
+	border: hidden;
+}
+.page-id-4240 .fl-accordion-button-label{
+	font-size: 20px;
+}
+
 /*
 *  Accordion divs for MRO-FSO Services page
 ===============================
@@ -54,6 +66,9 @@
 {
 	border:hidden;
 }
+.page-id-4081	.fl-accordion-button-label{
+	font-size: 20px;
+}
 
 /*
 *  Accordion divs for Position Descriptions page
@@ -61,6 +76,13 @@
 */
 .page-id-4086 .fl-accordion-item{
 	border: hidden;	
+}
+
+
+.page-id-4086 .fl-accordion-button-label{
+	text-decoration: underline;
+	font-weight: bold;
+	
 }
 
 
@@ -93,6 +115,17 @@
 	font-size: 20px;
 }
 
+/*
+*  Accordion divs FormTrap page
+===============================
+*/
+.page-id-4196 .fl-accordion-item{
+	border:hidden;
+}
+
+.page-id-4196 .fl-accordion-button-label{
+	font-size: 20px;
+}
 
 
 /*
@@ -136,13 +169,25 @@
 
 
 /*
-*  Growth for images
+*  Growth for all div images
 ===============================
 */
 
 .wp-image-2544, .wp-image-3413,
 .wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052,
-.wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3645, .wp-image-3644, .wp-image-3646, .wp-image-3908{
+.wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3645, .wp-image-3644, .wp-image-3646, .wp-image-3908,
+/* place holder images
+=================image- Goforward page
+*/
+.wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343,
+.wp-image-4347, .wp-image-4353, .wp-image-4364,
+
+/*
+* place holder images
+=================image-4231 FormTrap page
+*/
+.wp-image-4228, .wp-image-4231
+{
 	width: 350px;
 }
 
@@ -156,7 +201,7 @@
 
 
 /*
-*  All images in accordions.
+*  All images inside accordions.
 ===============================
 */
 .wp-image-2699, .wp-image-2700, .wp-image-2701, .wp-image-2887, .wp-image-2755, .wp-image-2756, .wp-image-2819, .wp-image-2820, .wp-image-2821, .wp-image-2919,
@@ -260,20 +305,24 @@ margin-left: 4em;
 	
 	
 @media only screen and (max-width: 568px) {
-	
-	/*
-*  Pronto Logo
-=============================
-*/	
-
 
 	
 /*
-*  All Word-press images for Accordions
+*  All Word-press images left of Accordions
 =============================
 */	
 .wp-image-2544, .wp-image-3413,
-.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908{
+.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908 /* place holder images
+=================image- Goforward page
+*/
+.wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343,
+.wp-image-4347, .wp-image-4353, .wp-image-4364,
+
+/*
+* place holder images
+=================image-4231 FormTrap page
+*/
+.wp-image-4228, .wp-image-4231{
 	
 -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -285,7 +334,7 @@ margin-left: 4em;
 	
 	
 /*
-*  All images in accordions.
+*  All images inside accordions.
 ===============================
 */	
 .wp-image-2699, .wp-image-2700, .wp-image-2701, .wp-image-2887, .wp-image-2755, .wp-image-2756, .wp-image-2819, .wp-image-2820, .wp-image-2821, .wp-image-2919,
