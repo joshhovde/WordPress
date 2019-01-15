@@ -11,7 +11,7 @@
 */
 
 .fl-page-nav-right .fl-page-header-wrap{
-	border-bottom: 0px;
+	border-bottom: hidden !important;
 }
 
 /*
@@ -29,11 +29,23 @@
 ===============================
 */
 .page-id-4240 .fl-accordion-item{
-	border: hidden;
+	border: hidden !important;
 }
 .page-id-4240 .fl-accordion-button-label{
-	font-size: 20px;
+	font-size: 20px !important;
 }
+
+/*
+*  Accordion divs for Personal Professional Service page
+===============================
+*/
+.page-id-4440 .fl-accordion-item{
+	border: hidden !important;
+}
+.page-id-4440 .fl-accordion-button-label{
+	font-size: 20px !important;
+}
+
 
 /*
 *  Accordion divs for MRO-FSO Services page
@@ -41,8 +53,8 @@
 */
 
 .fl-node-5c018418aad67 .fl-accordion-item, .fl-node-5c0185e273cd7 .fl-accordion-item, .fl-node-5c0185fdc1efd .fl-accordion-item {
-	border:hidden;
-	font-size: 20px;
+	border:hidden !important;
+	font-size: 20px !important;
 }
 
 /*
@@ -50,11 +62,11 @@
 ===============================
 */
 .page-id-1689 .fl-accordion-item{
-	border:hidden;
+	border:hidden !important;
 }	
 .page-id-1689	.fl-accordion-button-label{
 	width:16em;
-	font-size:20px
+	font-size:20px !important;
 }
 
 
@@ -64,10 +76,10 @@
 */
 .page-id-4081 .fl-accordion-item
 {
-	border:hidden;
+	border:hidden !important;
 }
 .page-id-4081	.fl-accordion-button-label{
-	font-size: 20px;
+	font-size: 20px !important;
 }
 
 /*
@@ -75,9 +87,8 @@
 ===============================
 */
 .page-id-4086 .fl-accordion-item{
-	border: hidden;	
+	border: hidden !important;	
 }
-
 
 .page-id-4086 .fl-accordion-button-label{
 	text-decoration: underline;
@@ -92,12 +103,13 @@
 */
 .page-id-1641 .fl-accordion-item
 {
-	border:hidden;
+	border:hidden !important;
 	line-height: 25px;
 }
 
 .page-id-1641 .fl-accordion-button-label{
 	width: 26em;
+	font-size: 20px !important;
 }
 
 
@@ -108,11 +120,11 @@
 .page-id-1593 .fl-accordion-item,
 .page-id-1727 .fl-accordion-item
 {
-	border:hidden;
+	border:hidden !important;
 }
 
 .page-id-1593 .fl-accordion-button-label, .page-id-1727 .fl-accordion-button-label{
-	font-size: 20px;
+	font-size: 20px !important;
 }
 
 /*
@@ -120,11 +132,11 @@
 ===============================
 */
 .page-id-4196 .fl-accordion-item{
-	border:hidden;
+	border:hidden !important;
 }
 
 .page-id-4196 .fl-accordion-button-label{
-	font-size: 20px;
+	font-size: 20px !important;
 }
 
 
@@ -136,8 +148,6 @@
 .fl-page-nav-right.fl-page-header-fixed, .fl-page-header-fixed{
 	position: fixed;
 }
-
-
 
 
 /*
@@ -176,17 +186,7 @@
 .wp-image-2544, .wp-image-3413,
 .wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052,
 .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3645, .wp-image-3644, .wp-image-3646, .wp-image-3908,
-/* place holder images
-=================image- Goforward page
-*/
-.wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343,
-.wp-image-4347, .wp-image-4353, .wp-image-4364,
-
-/*
-* place holder images
-=================image-4231 FormTrap page
-*/
-.wp-image-4228, .wp-image-4231
+.wp-image-4307, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4228, .wp-image-4231
 {
 	width: 350px;
 }
@@ -205,60 +205,11 @@
 ===============================
 */
 .wp-image-2699, .wp-image-2700, .wp-image-2701, .wp-image-2887, .wp-image-2755, .wp-image-2756, .wp-image-2819, .wp-image-2820, .wp-image-2821, .wp-image-2919,
-.wp-image-2918, .wp-image-2917, .wp-image-2916, .wp-image-2915, .wp-image-2905, .wp-image-2904
+.wp-image-2918, .wp-image-2917, .wp-image-2916, .wp-image-2915, .wp-image-2905, .wp-image-2904, .wp-image-4378,
+.wp-image-4430
 {
 	position: static !important;
 }
-
-
-/*
-*  CSS for Epicor support COPY only!.
-===============================
-*/
-.page-id-3155 .page
-{
-font-family:Century Gothic;
-background-image: url("http://prontoprogress.com/wp-content/uploads/2018/11/background18.jpg");
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-	
-.page-id-3155 .fl-node-5bf470b41059a a {
-font-size: 30px;
-font-weight: bold;
-}
-
-.page-id-3155 .fl-page-footer{
-	background-color:#f0f0e6;
-	border-style: solid;
-	border-color: silver;
-	border-width: 4px;
-	border-left: none;
-	border-right: none;
-}	
-
-.wp-image-3380{
-	width:auto !important;
-	margin: 0em !important;
-}
-
-.page-id-3155 .fl-row-content-wrap{
-	
-	border-radius: 2em 2em 0em 0em;
-}
-
-
-
-/*
-*  END OF CSS for Epicor support COPY only!.
-===============================
-*/
-
 
 /*
 *  Media Queries
@@ -297,13 +248,6 @@ margin-left: 4em;
 	}
 	
 	
-	/*
-*  .fl-module-content.fl-node-content
-=============================
-*/	
-	
-	
-	
 @media only screen and (max-width: 568px) {
 
 	
@@ -312,17 +256,8 @@ margin-left: 4em;
 =============================
 */	
 .wp-image-2544, .wp-image-3413,
-.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908 /* place holder images
-=================image- Goforward page
-*/
-.wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343,
-.wp-image-4347, .wp-image-4353, .wp-image-4364,
-
-/*
-* place holder images
-=================image-4231 FormTrap page
-*/
-.wp-image-4228, .wp-image-4231{
+.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343,
+.wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4228, .wp-image-4231, .wp-image-4307{
 	
 -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -338,7 +273,7 @@ margin-left: 4em;
 ===============================
 */	
 .wp-image-2699, .wp-image-2700, .wp-image-2701, .wp-image-2887, .wp-image-2755, .wp-image-2756, .wp-image-2819, .wp-image-2820, .wp-image-2821, .wp-image-2919,
-.wp-image-2918, .wp-image-2917, .wp-image-2916, .wp-image-2915, .wp-image-2905, .wp-image-2904, .wp-image-2935{
+.wp-image-2918, .wp-image-2917, .wp-image-2916, .wp-image-2915, .wp-image-2905, .wp-image-2904, .wp-image-2935, .wp-image-4378, .wp-image-4430{
 
 transform: scale(1.4);
 padding-bottom: 2em;
