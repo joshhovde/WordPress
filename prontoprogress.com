@@ -186,7 +186,7 @@
 .wp-image-2544, .wp-image-3413,
 .wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052,
 .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3645, .wp-image-3644, .wp-image-3646, .wp-image-3908,
-.wp-image-4307, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4228, .wp-image-4231
+.wp-image-4307, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4231, .wp-image-4501, .wp-image-4539, .wp-image-4572
 {
 	width: 350px;
 }
@@ -201,12 +201,11 @@
 
 
 /*
-*  All images inside accordions.
+*  All images inside accordions + .
 ===============================
 */
 .wp-image-2699, .wp-image-2700, .wp-image-2701, .wp-image-2887, .wp-image-2755, .wp-image-2756, .wp-image-2819, .wp-image-2820, .wp-image-2821, .wp-image-2919,
-.wp-image-2918, .wp-image-2917, .wp-image-2916, .wp-image-2915, .wp-image-2905, .wp-image-2904, .wp-image-4378,
-.wp-image-4430
+.wp-image-2918, .wp-image-2917, .wp-image-2916, .wp-image-2915, .wp-image-2905, .wp-image-2904, .wp-image-4378, .wp-image-4430, .wp-image-4569, .wp-image-4563
 {
 	position: static !important;
 }
@@ -252,12 +251,11 @@ margin-left: 4em;
 
 	
 /*
-*  All Word-press images left of Accordions
+*  All Vicki images to the left of Accordions
 =============================
 */	
 .wp-image-2544, .wp-image-3413,
-.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343,
-.wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4228, .wp-image-4231, .wp-image-4307{
+.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4572, .wp-image-4231, .wp-image-4307, .wp-image-4501, .wp-image-4539{
 	
 -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -273,7 +271,7 @@ margin-left: 4em;
 ===============================
 */	
 .wp-image-2699, .wp-image-2700, .wp-image-2701, .wp-image-2887, .wp-image-2755, .wp-image-2756, .wp-image-2819, .wp-image-2820, .wp-image-2821, .wp-image-2919,
-.wp-image-2918, .wp-image-2917, .wp-image-2916, .wp-image-2915, .wp-image-2905, .wp-image-2904, .wp-image-2935, .wp-image-4378, .wp-image-4430{
+.wp-image-2918, .wp-image-2917, .wp-image-2916, .wp-image-2915, .wp-image-2905, .wp-image-2904, .wp-image-2935, .wp-image-4378, .wp-image-4430, .wp-image-4569, .wp-image-4563{
 
 transform: scale(1.4);
 padding-bottom: 2em;
