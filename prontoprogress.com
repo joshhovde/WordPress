@@ -23,6 +23,20 @@
 	font-size: 20px;
 }
 
+/*
+*  rounded "Banner" borders for all  pages
+===============================
+*/
+.page-id-1654 .fl-row-content-wrap,
+.page-id-4196 .fl-row-content-wrap,
+.page-id-1727 .fl-row-content-wrap,
+.page-id-1593 .fl-row-content-wrap,
+.page-id-1689 .fl-row-content-wrap,
+.page-id-1641 .fl-row-content-wrap,
+.page-id-4081 .fl-row-content-wrap,
+.page-id-4086 .fl-row-content-wrap{	border-radius: 1em;
+}
+
 
 /*
 *  Accordion divs (GoForwardSM) page
@@ -51,11 +65,11 @@
 *  Accordion divs for MRO-FSO Services page
 ===============================
 */
-
-.fl-node-5c018418aad67 .fl-accordion-item, .fl-node-5c0185e273cd7 .fl-accordion-item, .fl-node-5c0185fdc1efd .fl-accordion-item {
+.page-id-1654 .fl-accordion-item{
 	border:hidden !important;
 	font-size: 20px !important;
 }
+
 
 /*
 *  Accordion divs for Open Positions page
@@ -122,13 +136,12 @@
 {
 	border:hidden !important;
 }
-
 .page-id-1593 .fl-accordion-button-label, .page-id-1727 .fl-accordion-button-label{
 	font-size: 20px !important;
 }
 
 /*
-*  Accordion divs FormTrap page
+Accordion divs FormTrap page
 ===============================
 */
 .page-id-4196 .fl-accordion-item{
@@ -160,35 +173,38 @@
 
 
 /*
-*  Careers page employee photos
+*  Employee photos for Careers Sub menu pages; Positions, Paths and Descriptions
 ===============================
 */
 .wp-image-3439, .wp-image-3936,
 .wp-image-3920, .wp-image-4068,
 .wp-image-3939{
+	border-radius:.3em;
 	width: 250px;
 }
 
 /*
-*  Sizing for Leadership Team images
+*  Leadership Team photos
 ===============================
 */
 .wp-image-3647, .wp-image-3648, .wp-image-3649, .wp-image-3650, .wp-image-3651, .wp-image-3652, .wp-image-3653, .wp-image-3654{
+	border-radius:.3em;
 	width: 250px;
 }
 
 
 /*
-*  Growth for all div images
+*  Growth for all Vicki images and border-radius in banners
 ===============================
 */
 
 .wp-image-2544, .wp-image-3413,
 .wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052,
-.wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3645, .wp-image-3644, .wp-image-3646, .wp-image-3908,
-.wp-image-4307, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4231, .wp-image-4501, .wp-image-4539, .wp-image-4572
+.wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908,
+.wp-image-4307, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4231, .wp-image-4501, .wp-image-4539, .wp-image-4572, .wp-image-4618, .wp-image-4617, .wp-image-4628
 {
 	width: 350px;
+	border-radius: .3em;
 }
 
 .grow{
@@ -255,7 +271,7 @@ margin-left: 4em;
 =============================
 */	
 .wp-image-2544, .wp-image-3413,
-.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4572, .wp-image-4231, .wp-image-4307, .wp-image-4501, .wp-image-4539{
+.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4572, .wp-image-4231, .wp-image-4307, .wp-image-4501, .wp-image-4539, .wp-image-4618, .wp-image-4617, .wp-image-4628{
 	
 -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -267,17 +283,28 @@ margin-left: 4em;
 	
 	
 /*
-*  All images inside accordions.
+*  All images inside accordions +.
 ===============================
 */	
 .wp-image-2699, .wp-image-2700, .wp-image-2701, .wp-image-2887, .wp-image-2755, .wp-image-2756, .wp-image-2819, .wp-image-2820, .wp-image-2821, .wp-image-2919,
-.wp-image-2918, .wp-image-2917, .wp-image-2916, .wp-image-2915, .wp-image-2905, .wp-image-2904, .wp-image-2935, .wp-image-4378, .wp-image-4430, .wp-image-4569, .wp-image-4563{
+.wp-image-2918, .wp-image-2917, .wp-image-2916, .wp-image-2915, .wp-image-2905, .wp-image-2904, .wp-image-2935, .wp-image-4378{
 
 transform: scale(1.4);
 padding-bottom: 2em;
 padding-top: 2em;
 margin-right: -.6em;
-}	
+}
+	}
+	
+@media only screen and (max-width: 400px) {	
+/*
+*  Charter letter and FormTrap letter inside accordions +.
+===============================
+*/		
+.wp-image-4430, .wp-image-4569, .wp-image-4563 {
+transform: scale(1.2);
+}
+	
 	
 	.fl-menu.fl-menu-accordion-collapse.fl-menu-responsive-toggle-mobile{
 		margin-top: 15px;
