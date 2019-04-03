@@ -28,6 +28,7 @@
 *  rounded "Banner" borders for all  pages
 ===============================
 */
+.page-id-4918 .fl-row-content-wrap,
 .page-id-1654 .fl-row-content-wrap,
 .page-id-4196 .fl-row-content-wrap,
 .page-id-1727 .fl-row-content-wrap,
@@ -36,7 +37,30 @@
 .page-id-1641 .fl-row-content-wrap,
 .page-id-4081 .fl-row-content-wrap,
 .page-id-4086 .fl-row-content-wrap,
-.page-id-4440 .fl-row-content-wrap{	border-radius: 1em;
+.page-id-4440 .fl-row-content-wrap,
+.page-id-4901 .fl-row-content-wrap{	border-radius: 1em;
+}
+
+/*
+*  Accordion divs (Billing Rates) page
+===============================
+*/
+.page-id-4918 .fl-accordion-item{
+	border: hidden !important;
+}
+.page-id-4918 .fl-accordion-button-label{
+	font-size: 20px !important;
+}
+
+/*
+*  Accordion divs (What were we thinking?) page
+===============================
+*/
+.page-id-4901 .fl-accordion-item{
+	border: hidden !important;
+}
+.page-id-4901 .fl-accordion-button-label{
+	font-size: 20px !important;
 }
 
 
@@ -181,7 +205,8 @@ Accordion divs FormTrap page
 */
 .wp-image-3439, .wp-image-3936,
 .wp-image-3920, .wp-image-4682,
-.wp-image-3939, .wp-image-4674{
+.wp-image-3939, .wp-image-4674,
+.wp-image-4869{
 	border-radius:.3em;
 	width: 250px;
 }
@@ -203,7 +228,7 @@ Accordion divs FormTrap page
 .wp-image-2544, .wp-image-3413,
 .wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052,
 .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908,
-.wp-image-4307, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4231, .wp-image-4501, .wp-image-4539, .wp-image-4572, .wp-image-4618, .wp-image-4617, .wp-image-4628, .wp-image-4797, .wp-image-4804, .wp-image-4809
+.wp-image-4307, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4231, .wp-image-4501, .wp-image-4539, .wp-image-4572, .wp-image-4618, .wp-image-4617, .wp-image-4628, .wp-image-4797, .wp-image-4804, .wp-image-4809, .wp-image-4900 
 {
 	width: 350px;
 	border-radius: .3em;
@@ -273,7 +298,7 @@ margin-left: 4em;
 =============================
 */	
 .wp-image-2544, .wp-image-3413,
-.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4572, .wp-image-4231, .wp-image-4307, .wp-image-4501, .wp-image-4539, .wp-image-4618, .wp-image-4617, .wp-image-4628, .wp-image-4797, .wp-image-4804, .wp-image-4809{
+.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4572, .wp-image-4231, .wp-image-4307, .wp-image-4501, .wp-image-4539, .wp-image-4618, .wp-image-4617, .wp-image-4628, .wp-image-4797, .wp-image-4804, .wp-image-4809, .wp-image-4900{
 	
 -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
