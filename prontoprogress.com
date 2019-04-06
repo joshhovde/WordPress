@@ -324,7 +324,20 @@ margin-right: -.6em;
 	}
 	
 @media only screen and (max-width: 400px) {	
-/*
+
+	/*
+* Billing rates graph image.
+===============================
+*/			
+	.wp-image-4979{
+	-webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+	transform: scale(1.2);
+		margin-left: 13px;
+	}
+	
+	/*
 *  Larger images inside accordions +.
 ===============================
 */		
