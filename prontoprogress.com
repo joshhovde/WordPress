@@ -228,7 +228,8 @@ Accordion divs FormTrap page
 .wp-image-2544, .wp-image-3413,
 .wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052,
 .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908,
-.wp-image-4307, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4231, .wp-image-4501, .wp-image-4539, .wp-image-4572, .wp-image-4618, .wp-image-4617, .wp-image-4628, .wp-image-4797, .wp-image-4804, .wp-image-4809, .wp-image-4900 
+.wp-image-4307, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4231, .wp-image-4501, .wp-image-4539, .wp-image-4572, .wp-image-4618, .wp-image-4617, .wp-image-4628, .wp-image-4797, .wp-image-4804, .wp-image-4809, .wp-image-4900, .wp-image-5079, .wp-image-5081
+
 {
 	width: 350px;
 	border-radius: .3em;
@@ -298,7 +299,8 @@ margin-left: 4em;
 =============================
 */	
 .wp-image-2544, .wp-image-3413,
-.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4572, .wp-image-4231, .wp-image-4307, .wp-image-4501, .wp-image-4539, .wp-image-4618, .wp-image-4617, .wp-image-4628, .wp-image-4797, .wp-image-4804, .wp-image-4809, .wp-image-4900{
+.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4572, .wp-image-4231, .wp-image-4307, .wp-image-4501, .wp-image-4539, .wp-image-4618, .wp-image-4617, .wp-image-4628, .wp-image-4797, .wp-image-4804, .wp-image-4809, .wp-image-4900, .wp-image-5079, .wp-image-5081
+	{
 	
 -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -324,18 +326,6 @@ margin-right: -.6em;
 	}
 	
 @media only screen and (max-width: 400px) {	
-
-	/*
-* Billing rates graph image.
-===============================
-*/			
-	.wp-image-4979{
-	-webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
-	transform: scale(1.2);
-		margin-left: 13px;
-	}
 	
 	/*
 *  Larger images inside accordions +.
