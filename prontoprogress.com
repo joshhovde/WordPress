@@ -23,11 +23,13 @@
 	font-size: 20px;
 }
 
-
 /*
 *  rounded "Banner" borders for all  pages
 ===============================
 */
+.page-id-5123 .fl-row-content-wrap,
+.page-id-5120 .fl-row-content-wrap,
+.page-id-5113 .fl-row-content-wrap,
 .page-id-4918 .fl-row-content-wrap,
 .page-id-1654 .fl-row-content-wrap,
 .page-id-4196 .fl-row-content-wrap,
@@ -39,6 +41,39 @@
 .page-id-4086 .fl-row-content-wrap,
 .page-id-4440 .fl-row-content-wrap,
 .page-id-4901 .fl-row-content-wrap{	border-radius: 1em;
+}
+
+/*
+*  Accordion divs (IOS) page
+===============================
+*/
+.page-id-5123 .fl-accordion-item{
+	border: hidden !important;
+}
+.page-id-5123 .fl-accordion-button-label{
+	font-size: 20px !important;
+}
+
+/*
+*  Accordion divs (Android) page
+===============================
+*/
+.page-id-5120 .fl-accordion-item{
+	border: hidden !important;
+}
+.page-id-5120 .fl-accordion-button-label{
+	font-size: 20px !important;
+}
+
+/*
+*  Accordion divs (White Label Apps) page
+===============================
+*/
+.page-id-5113 .fl-accordion-item{
+	border: hidden !important;
+}
+.page-id-5113 .fl-accordion-button-label{
+	font-size: 20px !important;
 }
 
 /*
@@ -111,7 +146,7 @@
 
 
 /*
-*  Accordion divs for Career Paths page
+*  Accordion divs and line height for Career Paths page
 ===============================
 */
 .page-id-4081 .fl-accordion-item
@@ -120,7 +155,9 @@
 }
 .page-id-4081	.fl-accordion-button-label{
 	font-size: 20px !important;
+	line-height:1.1px;
 }
+
 
 /*
 *  Accordion divs for Position Descriptions page
@@ -228,13 +265,19 @@ Accordion divs FormTrap page
 .wp-image-2544, .wp-image-3413,
 .wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052,
 .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908,
-.wp-image-4307, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4231, .wp-image-4501, .wp-image-4539, .wp-image-4572, .wp-image-4618, .wp-image-4617, .wp-image-4628, .wp-image-4797, .wp-image-4804, .wp-image-4809, .wp-image-4900, .wp-image-5079, .wp-image-5081
+.wp-image-4307, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4231, .wp-image-4501, .wp-image-4539, .wp-image-4572, .wp-image-4618, .wp-image-4617, .wp-image-4628, .wp-image-4797, .wp-image-4804, .wp-image-4809, .wp-image-4900, .wp-image-5079, .wp-image-5081,
+.wp-image-5126, .wp-image-5145, .wp-image-5163
 
 {
 	width: 350px;
 	border-radius: .3em;
 }
 
+
+/*
+*  Growth size for all images .
+===============================
+*/
 .grow{
 	width: 514px;
 }
@@ -299,7 +342,7 @@ margin-left: 4em;
 =============================
 */	
 .wp-image-2544, .wp-image-3413,
-.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4572, .wp-image-4231, .wp-image-4307, .wp-image-4501, .wp-image-4539, .wp-image-4618, .wp-image-4617, .wp-image-4628, .wp-image-4797, .wp-image-4804, .wp-image-4809, .wp-image-4900, .wp-image-5079, .wp-image-5081
+.wp-image-2510, .wp-image-3428, .wp-image-2494, .wp-image-3423, .wp-image-3408, .wp-image-3418, .wp-image-2651, .wp-image-2810, .wp-image-2830, .wp-image-3052, .wp-image-3742, .wp-image-3744, .wp-image-3745, .wp-image-3052, .wp-image-3746, .wp-image-3843, .wp-image-3908, .wp-image-4332, .wp-image-4335, .wp-image-4339, .wp-image-4343, .wp-image-4347, .wp-image-4353, .wp-image-4364, .wp-image-4572, .wp-image-4231, .wp-image-4307, .wp-image-4501, .wp-image-4539, .wp-image-4618, .wp-image-4617, .wp-image-4628, .wp-image-4797, .wp-image-4804, .wp-image-4809, .wp-image-4900, .wp-image-5079, .wp-image-5081, .wp-image-5126, .wp-image-5145, .wp-image-5163
 	{
 	
 -webkit-transform: scale(1.2);
